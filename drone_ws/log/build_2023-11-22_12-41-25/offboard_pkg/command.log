@@ -1,0 +1,4 @@
+Invoking command in '/home/fins/桌面/drone_ws/build/offboard_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fins/桌面/drone_ws/build/offboard_pkg -- -j8 -l8
+Invoked command in '/home/fins/桌面/drone_ws/build/offboard_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fins/桌面/drone_ws/build/offboard_pkg -- -j8 -l8
+Invoking command in '/home/fins/桌面/drone_ws/build/offboard_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fins/桌面/drone_ws/build/offboard_pkg
+Invoked command in '/home/fins/桌面/drone_ws/build/offboard_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fins/桌面/drone_ws/build/offboard_pkg

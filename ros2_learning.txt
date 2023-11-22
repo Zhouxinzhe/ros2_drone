@@ -1,0 +1,111 @@
+节点相关CLI指令：
+	运行节点：ros2 run <package_name> <executable_name>
+	查看节点列表：ros2 node list
+	查看节点信息：ros2 node info <node_name>
+	重映射节点名称：ros2 run <package_name> <executable_name> --ros-args --remap __node:=<new_name>
+	
+	example:
+		ros2 run turtlesim turtlesim_node
+		ros2 run turtlesim turtle_teleop_key
+		ros2 run turtlesim turtlesim_node --ros-args --remap __node:= my_turtle
+更多：ros2/ros2cli:ROS 2 command line interface tools (github.com)	
+	
+	
+ 工作空间
+ 	创建：mkdir -p <name>/src
+ 	
+ 功能包：根据编译方式分为3类
+ 	* ament_python，适用于python程序
+ 	* cmake，适用于C++
+ 	* ament_cmake，cmake的增强版
+ 
+ 功能包的获取
+ 	安装获取：sudo apt install ros-<version>-<package_name>
+ 		安装获取会自动放置在系统目录(/opt/ros)，不用手动source
+ 	手动编译
+ 	
+ 功能包相关指令：
+ 	创建功能包：ros2 pkg create <package-name> --build-type {cmake,ament_cmake,ament_python} --dependencies<依赖项>	
+ 	列出所有可执行文件：ros2 pkg executables
+ 	列出某个功能包：ros2 pkg executables <package-name>
+ 	列出所有包：ros2 pkg list
+ 	列出某个包所在路径的前缀：ros2 pkg prefix <package-name> 
+ 	列出包的清单描述列表：ros2 pkg xml <package-name>
+ 	
+ 
+ Colcon
+ 	功能包编译工具。编译代码的。相当于ros中的cmake
+ 	1.安装
+ 		sudo apt-get install python3-colcon-common-extensions
+ 	2.编译
+ 		1.创建一个工作区域文件夹 colcon_test
+ 			mkdir colcon_test
+ 			cd colcon_test
+ 		2.下载源码
+ 			git clone .....(加个代理 git clone https://ghproxy.com/....)
+ 		3.编译源码
+ 			编译全部功能包：colcon build
+ 			编译指定功能包：colcon build --packages-select <package-name>
+ 
+更多详见：https://colcon.readthedocs.io/en/released/user/installation.html
+	 http://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html	
+ 	
+创建python节点
+	1.创建工作空间
+		mkdir -p python_ws/src
+		cd python_ws/src
+		code ./   (在当前位置打开scode）
+	2.创建功能包
+		ros2 pkg create test_one --build-type ament_python --dependencies rclpy	
+ 	3.创建节点文件
+ 		在__init__.py同级别文件夹下创建.py格式文件（可以在vscode中新建）
+ 	4.指明入口函数
+ 		在setup.py文件中'console_scripts:'下加入"node_one(节点名字)=test_one_node(功能包名字).test_one_node(节点文件):main(入口函数名字)"	
+ 	5.编译及运行文件
+ 		1.在工作空间目录下(python_ws)执行 colcon build
+ 		2.source install/setup.bash	使系统能够找到编写的功能包
+ 		3.ros2 run test_one(功能包名字) node_one(节点名字，不是节点文件的名字)
+ 			
+创建C++节点
+	1.mkdir -p C++_ws/src
+	  cd C++_ws/src
+	2.ros2 pkg create test_one --build-type ament_cmake --dependencies rclcpp
+ 	3.code ./
+ 	4.编写代码，详见test.cpp
+ 	5.修改CmakeLists.txt
+ 		add_executable(test_node src/test.cpp)
+ 		ament_target_dependencies(test_node rclcpp)
+ 		install(TARGETS
+  			test_node
+  			DESTINATION lib/${PROJECT_NAME}
+		)
+ 
+ 
+ 
+话题
+	qrt_graph	查看节点间关联
+ 	ros2 topic list 返回系统中当前活动的所有话题列表
+ 	ros2 topic list -t	增加消息类型
+ 	ros2 topic echo </topic> 打印实时话题内容
+ 	ros2 topic info </topic> 查看话题信息
+ 	ros2 interface show <Type>  查看消息类型
+ 	ros2 topic pub </topic> <Type> <内容>  
+ 		exmple: ros2 topic pub /test std_msgs/msg/String "{data: 'zxz好帅！！'}"  
+ 		
+ 
+关于QoS Policy
+https://mp.weixin.qq.com/s/J63fO4c_QIseLGQd5W2fAw
+查看Qos：ros2 topic info /scan --verbose
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

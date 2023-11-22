@@ -1,0 +1,131 @@
+[0.009s] Invoking command in '/home/fins/桌面/drone_ws/build/drone_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fins/桌面/drone_ws/src/drone_control_pkg -DCMAKE_INSTALL_PREFIX=/home/fins/桌面/drone_ws/install/drone_control_pkg
+[0.042s] -- The C compiler identification is GNU 11.3.0
+[0.076s] -- The CXX compiler identification is GNU 11.3.0
+[0.080s] -- Detecting C compiler ABI info
+[0.120s] -- Detecting C compiler ABI info - done
+[0.125s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.125s] -- Detecting C compile features
+[0.125s] -- Detecting C compile features - done
+[0.127s] -- Detecting CXX compiler ABI info
+[0.179s] -- Detecting CXX compiler ABI info - done
+[0.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.184s] -- Detecting CXX compile features
+[0.184s] -- Detecting CXX compile features - done
+[0.186s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.288s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.342s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.373s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.376s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.382s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.391s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.404s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.449s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.451s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.509s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.526s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.557s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.564s] -- Looking for pthread.h
+[0.609s] -- Looking for pthread.h - found
+[0.609s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.656s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.656s] -- Found Threads: TRUE  
+[0.766s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.795s] -- Found mavros_msgs: 2.4.0 (/opt/ros/humble/share/mavros_msgs/cmake)
+[1.057s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.103s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.103s] -- Configured cppcheck include dirs: 
+[1.103s] -- Configured cppcheck exclude dirs and/or files: 
+[1.104s] -- Added test 'lint_cmake' to check CMake code style
+[1.104s] -- Added test 'uncrustify' to check C / C++ code style
+[1.104s] -- Configured uncrustify additional arguments: 
+[1.104s] -- Added test 'xmllint' to check XML markup files
+[1.106s] -- Configuring done
+[1.113s] -- Generating done
+[1.115s] -- Build files have been written to: /home/fins/桌面/drone_ws/build/drone_control_pkg
+[1.122s] Invoked command in '/home/fins/桌面/drone_ws/build/drone_control_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fins/桌面/drone_ws/src/drone_control_pkg -DCMAKE_INSTALL_PREFIX=/home/fins/桌面/drone_ws/install/drone_control_pkg
+[1.123s] Invoking command in '/home/fins/桌面/drone_ws/build/drone_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fins/桌面/drone_ws/build/drone_control_pkg -- -j8 -l8
+[1.154s] [ 50%] [32mBuilding CXX object CMakeFiles/arm_node.dir/src/arm.cpp.o[0m
+[2.545s] [01m[K/home/fins/桌面/drone_ws/src/drone_control_pkg/src/arm.cpp:7:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmavros_msgs::msg::State_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.546s]     7 | void get_state(mavros_msgs::msg::State::ConstPtr state[01;35m[K)[m[K
+[2.546s]       |                                                       [01;35m[K^[m[K
+[2.546s] In file included from [01m[K/opt/ros/humble/include/mavros_msgs/mavros_msgs/msg/state.hpp:7[m[K,
+[2.546s]                  from [01m[K/home/fins/桌面/drone_ws/src/drone_control_pkg/src/arm.cpp:3[m[K:
+[2.546s] [01m[K/opt/ros/humble/include/mavros_msgs/mavros_msgs/msg/detail/state__struct.hpp:237:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.546s]   237 |     [01;36m[KConstPtr[m[K;
+[2.546s]       |     [01;36m[K^~~~~~~~[m[K
+[2.605s] [01m[K/home/fins/桌面/drone_ws/src/drone_control_pkg/src/arm.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.605s] [01m[K/home/fins/桌面/drone_ws/src/drone_control_pkg/src/arm.cpp:46:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Client<mavros_msgs::srv::CommandBool>::async_send_request(mavros_msgs::srv::CommandBool::Request&)[m[K’
+[2.605s]    46 | mandBool::Response response = [01;31m[Karm_client->async_send_request(arm_request)[m[K;
+[2.605s]       |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.605s] 
+[2.606s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.606s]                  from [01m[K/home/fins/桌面/drone_ws/src/drone_control_pkg/src/arm.cpp:1[m[K:
+[2.606s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::shared_ptr<mavros_msgs::srv::CommandBool_Response_<std::allocator<void> > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = <anonymous>; ServiceT = mavros_msgs::srv::CommandBool][m[K’
+[2.606s]   643 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+[2.606s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.606s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.606s] [01m[K/home/fins/桌面/drone_ws/src/drone_control_pkg/src/arm.cpp:46:86:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[2.606s]    46 | mandBool::Response response = [01;36m[Karm_client->async_send_request(arm_request)[m[K;
+[2.606s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.606s] 
+[2.606s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.607s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.607s]                  from [01m[K/home/fins/桌面/drone_ws/src/drone_control_pkg/src/arm.cpp:1[m[K:
+[2.607s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<mavros_msgs::srv::CommandBool_Request_<std::allocator<void> > >, std::shared_ptr<mavros_msgs::srv::CommandBool_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureWithRequestAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<typename ServiceT::Request::SharedPtr, typename ServiceT::Response::SharedPtr> >)> >::value>::type* <anonymous> = <anonymous>; ServiceT = mavros_msgs::srv::CommandBool][m[K’
+[2.607s]   674 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+[2.607s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.607s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.607s] [01m[K/home/fins/桌面/drone_ws/src/drone_control_pkg/src/arm.cpp:46:86:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[2.607s]    46 | mandBool::Response response = [01;36m[Karm_client->async_send_request(arm_request)[m[K;
+[2.607s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.607s] 
+[2.607s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.607s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.607s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.607s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.607s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.607s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.607s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.607s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.607s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.607s]                  from [01m[K/home/fins/桌面/drone_ws/src/drone_control_pkg/src/arm.cpp:1[m[K:
+[2.607s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:608:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Client<ServiceT>::FutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest) [with ServiceT = mavros_msgs::srv::CommandBool; rclcpp::Client<ServiceT>::SharedRequest = std::shared_ptr<mavros_msgs::srv::CommandBool_Request_<std::allocator<void> > >][m[K’
+[2.607s]   608 |   [01;36m[Kasync_send_request[m[K(SharedRequest request)
+[2.607s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.607s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:608:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmavros_msgs::srv::CommandBool::Request[m[K’ {aka ‘[01m[Kmavros_msgs::srv::CommandBool_Request_<std::allocator<void> >[m[K’} to ‘[01m[Krclcpp::Client<mavros_msgs::srv::CommandBool>::SharedRequest[m[K’ {aka ‘[01m[Kstd::shared_ptr<mavros_msgs::srv::CommandBool_Request_<std::allocator<void> > >[m[K’}
+[2.607s]   608 |   async_send_request([01;36m[KSharedRequest request[m[K)
+[2.607s]       |                      [01;36m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[2.831s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.831s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.832s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.832s]                  from [01m[K/home/fins/桌面/drone_ws/src/drone_control_pkg/src/arm.cpp:1[m[K:
+[2.832s] /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp: In instantiation of ‘[01m[Krclcpp::FutureReturnCode rclcpp::Executor::spin_until_future_complete(const FutureT&, std::chrono::duration<_Rep, _Period>) [with FutureT = mavros_msgs::srv::CommandBool_Response_<std::allocator<void> >; TimeRepT = long int; TimeT = std::ratio<1, 1000>][m[K’:
+[2.832s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:80:53:[m[K   required from ‘[01m[Krclcpp::FutureReturnCode rclcpp::executors::spin_node_until_future_complete(rclcpp::Executor&, rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, const FutureT&, std::chrono::duration<_Rep, _Period>) [with FutureT = mavros_msgs::srv::CommandBool_Response_<std::allocator<void> >; TimeRepT = long int; TimeT = std::ratio<1, 1000>; rclcpp::node_interfaces::NodeBaseInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>][m[K’
+[2.832s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:111:61:[m[K   required from ‘[01m[Krclcpp::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, const FutureT&, std::chrono::duration<_Rep, _Period>) [with FutureT = mavros_msgs::srv::CommandBool_Response_<std::allocator<void> >; TimeRepT = long int; TimeT = std::ratio<1, 1000>; rclcpp::node_interfaces::NodeBaseInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>][m[K’
+[2.832s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:122:44:[m[K   required from ‘[01m[Krclcpp::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, const FutureT&, std::chrono::duration<_Rep2, _Period2>) [with NodeT = rclcpp::Node; FutureT = mavros_msgs::srv::CommandBool_Response_<std::allocator<void> >; TimeRepT = long int; TimeT = std::ratio<1, 1000>][m[K’
+[2.832s] [01m[K/home/fins/桌面/drone_ws/src/drone_control_pkg/src/arm.cpp:47:42:[m[K   required from here
+[2.832s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:343:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct mavros_msgs::srv::CommandBool_Response_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kwait_for[m[K’
+[2.832s]   343 |     std::future_status status = [01;31m[Kfuture.wait_for[m[K(std::chrono::seconds(0));
+[2.832s]       |                                 [01;31m[K~~~~~~~^~~~~~~~[m[K
+[2.832s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:365:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct mavros_msgs::srv::CommandBool_Response_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kwait_for[m[K’
+[2.832s]   365 |       status = [01;31m[Kfuture.wait_for[m[K(std::chrono::seconds(0));
+[2.832s]       |                [01;31m[K~~~~~~~^~~~~~~~[m[K
+[4.177s] gmake[2]: *** [CMakeFiles/arm_node.dir/build.make:76：CMakeFiles/arm_node.dir/src/arm.cpp.o] 错误 1
+[4.178s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/arm_node.dir/all] 错误 2
+[4.178s] gmake: *** [Makefile:146：all] 错误 2
+[4.179s] Invoked command in '/home/fins/桌面/drone_ws/build/drone_control_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fins/桌面/drone_ws/build/drone_control_pkg -- -j8 -l8

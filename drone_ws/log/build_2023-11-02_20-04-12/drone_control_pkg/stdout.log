@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target arm_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/arm_node.dir/src/arm.cpp.o[0m
+[100%] [32m[1mLinking CXX executable arm_node[0m
+[100%] Built target arm_node
+-- Install configuration: ""
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/ament_index/resource_index/package_run_dependencies/drone_control_pkg
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/ament_index/resource_index/parent_prefix_path/drone_control_pkg
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/environment/path.sh
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/environment/path.dsv
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/local_setup.bash
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/local_setup.sh
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/local_setup.zsh
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/local_setup.dsv
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/package.dsv
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/ament_index/resource_index/packages/drone_control_pkg
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/cmake/drone_control_pkgConfig.cmake
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/cmake/drone_control_pkgConfig-version.cmake
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/package.xml
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/lib/drone_control_pkg/arm_node
+-- Set runtime path of "/home/fins/桌面/drone_ws/install/drone_control_pkg/lib/drone_control_pkg/arm_node" to ""

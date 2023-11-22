@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/fins/桌面/drone_ws/build/drone_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fins/桌面/drone_ws/build/drone_control_pkg -- -j8 -l8
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target arm_node[0m
+[0.049s] [ 50%] [32mBuilding CXX object CMakeFiles/arm_node.dir/src/arm.cpp.o[0m
+[5.698s] [100%] [32m[1mLinking CXX executable arm_node[0m
+[6.006s] [100%] Built target arm_node
+[6.013s] Invoked command in '/home/fins/桌面/drone_ws/build/drone_control_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fins/桌面/drone_ws/build/drone_control_pkg -- -j8 -l8
+[6.032s] Invoking command in '/home/fins/桌面/drone_ws/build/drone_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fins/桌面/drone_ws/build/drone_control_pkg
+[6.039s] -- Install configuration: ""
+[6.039s] -- Up-to-date: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/ament_index/resource_index/package_run_dependencies/drone_control_pkg
+[6.039s] -- Up-to-date: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/ament_index/resource_index/parent_prefix_path/drone_control_pkg
+[6.039s] -- Up-to-date: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/environment/ament_prefix_path.sh
+[6.039s] -- Up-to-date: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/environment/ament_prefix_path.dsv
+[6.039s] -- Up-to-date: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/environment/path.sh
+[6.040s] -- Up-to-date: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/environment/path.dsv
+[6.040s] -- Up-to-date: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/local_setup.bash
+[6.040s] -- Up-to-date: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/local_setup.sh
+[6.040s] -- Up-to-date: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/local_setup.zsh
+[6.040s] -- Up-to-date: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/local_setup.dsv
+[6.040s] -- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/package.dsv
+[6.040s] -- Up-to-date: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/ament_index/resource_index/packages/drone_control_pkg
+[6.040s] -- Up-to-date: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/cmake/drone_control_pkgConfig.cmake
+[6.040s] -- Up-to-date: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/cmake/drone_control_pkgConfig-version.cmake
+[6.040s] -- Up-to-date: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/package.xml
+[6.040s] -- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/lib/drone_control_pkg/arm_node
+[6.044s] -- Set runtime path of "/home/fins/桌面/drone_ws/install/drone_control_pkg/lib/drone_control_pkg/arm_node" to ""
+[6.045s] Invoked command in '/home/fins/桌面/drone_ws/build/drone_control_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fins/桌面/drone_ws/build/drone_control_pkg

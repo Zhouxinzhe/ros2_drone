@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.000093] (drone_control_pkg) JobQueued: {'identifier': 'drone_control_pkg', 'dependencies': OrderedDict()}
+[0.000115] (drone_control_pkg) JobStarted: {'identifier': 'drone_control_pkg'}
+[0.008024] (drone_control_pkg) JobProgress: {'identifier': 'drone_control_pkg', 'progress': 'cmake'}
+[0.008257] (drone_control_pkg) JobProgress: {'identifier': 'drone_control_pkg', 'progress': 'build'}
+[0.008791] (drone_control_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fins/桌面/drone_ws/build/drone_control_pkg', '--', '-j8', '-l8'], 'cwd': '/home/fins/桌面/drone_ws/build/drone_control_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', ':/usr/local/cuda-11.7/lib64'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'fins'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/cuda-11.7/lib64'), ('HOME', '/home/fins'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/fins/桌面'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1505'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fins/桌面/relearn_ws/install:/home/fins/桌面/test_ws/install:/home/fins/桌面/mavros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fins'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fins'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/fins/anaconda3/condabin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/fins/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/fins/.local/share/JetBrains/Toolbox/scripts:/usr/local/cuda-11.7/bin'), ('SESSION_MANAGER', 'local/fins-UTG:@/tmp/.ICE-unix/1261,unix/fins-UTG:/tmp/.ICE-unix/1261'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/12b29a40_ac43_4383_9165_a2de351a40f2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KE2ND2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.384'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fins/桌面/relearn_ws/install/turtle_control_pkg:/home/fins/桌面/relearn_ws/install/relearn_pkg:/home/fins/桌面/test_ws/install/test_pkg:/home/fins/桌面/mavros_ws/install/offboard_test:/home/fins/桌面/mavros_ws/install/mavros_pkg3:/home/fins/桌面/mavros_ws/install/mavros_pkg2:/home/fins/桌面/mavros_ws/install/mavros_pkg:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/fins/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fins/桌面/drone_ws/build/drone_control_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/fins/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fins/桌面/relearn_ws/install/turtle_control_pkg:/home/fins/桌面/relearn_ws/install/relearn_pkg:/home/fins/桌面/test_ws/install/test_pkg:/home/fins/桌面/mavros_ws/install/offboard_test:/home/fins/桌面/mavros_ws/install/mavros_pkg3:/home/fins/桌面/mavros_ws/install/mavros_pkg2:/home/fins/桌面/mavros_ws/install/mavros_pkg:/opt/ros/humble')]), 'shell': False}
+[0.035871] (drone_control_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target arm_node\x1b[0m\n'}
+[0.048085] (drone_control_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/arm_node.dir/src/arm.cpp.o\x1b[0m\n'}
+[0.099253] (-) TimerEvent: {}
+[0.199497] (-) TimerEvent: {}
+[0.299783] (-) TimerEvent: {}
+[0.400020] (-) TimerEvent: {}
+[0.500356] (-) TimerEvent: {}
+[0.600649] (-) TimerEvent: {}
+[0.700921] (-) TimerEvent: {}
+[0.801185] (-) TimerEvent: {}
+[0.901531] (-) TimerEvent: {}
+[1.001866] (-) TimerEvent: {}
+[1.102206] (-) TimerEvent: {}
+[1.202548] (-) TimerEvent: {}
+[1.302921] (-) TimerEvent: {}
+[1.403264] (-) TimerEvent: {}
+[1.503552] (-) TimerEvent: {}
+[1.603830] (-) TimerEvent: {}
+[1.704118] (-) TimerEvent: {}
+[1.804402] (-) TimerEvent: {}
+[1.904743] (-) TimerEvent: {}
+[2.005110] (-) TimerEvent: {}
+[2.105449] (-) TimerEvent: {}
+[2.205799] (-) TimerEvent: {}
+[2.306152] (-) TimerEvent: {}
+[2.406510] (-) TimerEvent: {}
+[2.506899] (-) TimerEvent: {}
+[2.607275] (-) TimerEvent: {}
+[2.707551] (-) TimerEvent: {}
+[2.807828] (-) TimerEvent: {}
+[2.908121] (-) TimerEvent: {}
+[3.008387] (-) TimerEvent: {}
+[3.108755] (-) TimerEvent: {}
+[3.209104] (-) TimerEvent: {}
+[3.309463] (-) TimerEvent: {}
+[3.409828] (-) TimerEvent: {}
+[3.510154] (-) TimerEvent: {}
+[3.610506] (-) TimerEvent: {}
+[3.710762] (-) TimerEvent: {}
+[3.811102] (-) TimerEvent: {}
+[3.911357] (-) TimerEvent: {}
+[4.011697] (-) TimerEvent: {}
+[4.111962] (-) TimerEvent: {}
+[4.212285] (-) TimerEvent: {}
+[4.312612] (-) TimerEvent: {}
+[4.412930] (-) TimerEvent: {}
+[4.513254] (-) TimerEvent: {}
+[4.613511] (-) TimerEvent: {}
+[4.713853] (-) TimerEvent: {}
+[4.814175] (-) TimerEvent: {}
+[4.914515] (-) TimerEvent: {}
+[5.014827] (-) TimerEvent: {}
+[5.115159] (-) TimerEvent: {}
+[5.215409] (-) TimerEvent: {}
+[5.315758] (-) TimerEvent: {}
+[5.416038] (-) TimerEvent: {}
+[5.516335] (-) TimerEvent: {}
+[5.616705] (-) TimerEvent: {}
+[5.714478] (drone_control_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable arm_node\x1b[0m\n'}
+[5.716863] (-) TimerEvent: {}
+[5.817103] (-) TimerEvent: {}
+[5.917475] (-) TimerEvent: {}
+[6.017836] (-) TimerEvent: {}
+[6.034222] (drone_control_pkg) StdoutLine: {'line': b'[100%] Built target arm_node\n'}
+[6.040532] (drone_control_pkg) CommandEnded: {'returncode': 0}
+[6.054648] (drone_control_pkg) JobProgress: {'identifier': 'drone_control_pkg', 'progress': 'install'}
+[6.060363] (drone_control_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fins/桌面/drone_ws/build/drone_control_pkg'], 'cwd': '/home/fins/桌面/drone_ws/build/drone_control_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', ':/usr/local/cuda-11.7/lib64'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'fins'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/cuda-11.7/lib64'), ('HOME', '/home/fins'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/fins/桌面'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1505'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fins/桌面/relearn_ws/install:/home/fins/桌面/test_ws/install:/home/fins/桌面/mavros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fins'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fins'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/fins/anaconda3/condabin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/fins/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/fins/.local/share/JetBrains/Toolbox/scripts:/usr/local/cuda-11.7/bin'), ('SESSION_MANAGER', 'local/fins-UTG:@/tmp/.ICE-unix/1261,unix/fins-UTG:/tmp/.ICE-unix/1261'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/12b29a40_ac43_4383_9165_a2de351a40f2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KE2ND2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.384'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fins/桌面/relearn_ws/install/turtle_control_pkg:/home/fins/桌面/relearn_ws/install/relearn_pkg:/home/fins/桌面/test_ws/install/test_pkg:/home/fins/桌面/mavros_ws/install/offboard_test:/home/fins/桌面/mavros_ws/install/mavros_pkg3:/home/fins/桌面/mavros_ws/install/mavros_pkg2:/home/fins/桌面/mavros_ws/install/mavros_pkg:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/fins/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fins/桌面/drone_ws/build/drone_control_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/fins/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fins/桌面/relearn_ws/install/turtle_control_pkg:/home/fins/桌面/relearn_ws/install/relearn_pkg:/home/fins/桌面/test_ws/install/test_pkg:/home/fins/桌面/mavros_ws/install/offboard_test:/home/fins/桌面/mavros_ws/install/mavros_pkg3:/home/fins/桌面/mavros_ws/install/mavros_pkg2:/home/fins/桌面/mavros_ws/install/mavros_pkg:/opt/ros/humble')]), 'shell': False}
+[6.064878] (drone_control_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.065016] (drone_control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/fins/\xe6\xa1\x8c\xe9\x9d\xa2/drone_ws/install/drone_control_pkg/share/ament_index/resource_index/package_run_dependencies/drone_control_pkg\n'}
+[6.065110] (drone_control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/fins/\xe6\xa1\x8c\xe9\x9d\xa2/drone_ws/install/drone_control_pkg/share/ament_index/resource_index/parent_prefix_path/drone_control_pkg\n'}
+[6.065182] (drone_control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/fins/\xe6\xa1\x8c\xe9\x9d\xa2/drone_ws/install/drone_control_pkg/share/drone_control_pkg/environment/ament_prefix_path.sh\n'}
+[6.065229] (drone_control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/fins/\xe6\xa1\x8c\xe9\x9d\xa2/drone_ws/install/drone_control_pkg/share/drone_control_pkg/environment/ament_prefix_path.dsv\n'}
+[6.065270] (drone_control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/fins/\xe6\xa1\x8c\xe9\x9d\xa2/drone_ws/install/drone_control_pkg/share/drone_control_pkg/environment/path.sh\n'}
+[6.065310] (drone_control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/fins/\xe6\xa1\x8c\xe9\x9d\xa2/drone_ws/install/drone_control_pkg/share/drone_control_pkg/environment/path.dsv\n'}
+[6.065349] (drone_control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/fins/\xe6\xa1\x8c\xe9\x9d\xa2/drone_ws/install/drone_control_pkg/share/drone_control_pkg/local_setup.bash\n'}
+[6.065387] (drone_control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/fins/\xe6\xa1\x8c\xe9\x9d\xa2/drone_ws/install/drone_control_pkg/share/drone_control_pkg/local_setup.sh\n'}
+[6.065425] (drone_control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/fins/\xe6\xa1\x8c\xe9\x9d\xa2/drone_ws/install/drone_control_pkg/share/drone_control_pkg/local_setup.zsh\n'}
+[6.065503] (drone_control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/fins/\xe6\xa1\x8c\xe9\x9d\xa2/drone_ws/install/drone_control_pkg/share/drone_control_pkg/local_setup.dsv\n'}
+[6.065555] (drone_control_pkg) StdoutLine: {'line': b'-- Installing: /home/fins/\xe6\xa1\x8c\xe9\x9d\xa2/drone_ws/install/drone_control_pkg/share/drone_control_pkg/package.dsv\n'}
+[6.065610] (drone_control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/fins/\xe6\xa1\x8c\xe9\x9d\xa2/drone_ws/install/drone_control_pkg/share/ament_index/resource_index/packages/drone_control_pkg\n'}
+[6.065650] (drone_control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/fins/\xe6\xa1\x8c\xe9\x9d\xa2/drone_ws/install/drone_control_pkg/share/drone_control_pkg/cmake/drone_control_pkgConfig.cmake\n'}
+[6.065689] (drone_control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/fins/\xe6\xa1\x8c\xe9\x9d\xa2/drone_ws/install/drone_control_pkg/share/drone_control_pkg/cmake/drone_control_pkgConfig-version.cmake\n'}
+[6.065729] (drone_control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/fins/\xe6\xa1\x8c\xe9\x9d\xa2/drone_ws/install/drone_control_pkg/share/drone_control_pkg/package.xml\n'}
+[6.065768] (drone_control_pkg) StdoutLine: {'line': b'-- Installing: /home/fins/\xe6\xa1\x8c\xe9\x9d\xa2/drone_ws/install/drone_control_pkg/lib/drone_control_pkg/arm_node\n'}
+[6.068715] (drone_control_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/fins/\xe6\xa1\x8c\xe9\x9d\xa2/drone_ws/install/drone_control_pkg/lib/drone_control_pkg/arm_node" to ""\n'}
+[6.069756] (drone_control_pkg) CommandEnded: {'returncode': 0}
+[6.104181] (drone_control_pkg) JobEnded: {'identifier': 'drone_control_pkg', 'rc': 0}
+[6.104862] (-) EventReactorShutdown: {}

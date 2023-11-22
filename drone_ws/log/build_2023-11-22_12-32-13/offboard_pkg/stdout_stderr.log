@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target offboard_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/offboard_node.dir/src/offboard.cpp.o[0m
+[01m[K/home/fins/桌面/drone_ws/src/offboard_pkg/src/offboard.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/fins/桌面/drone_ws/src/offboard_pkg/src/offboard.cpp:33:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_subscription<geometry_msgs::msg::PoseStamped>(const char [27], const rclcpp::QoS&, int, void (&)(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr))[m[K’
+   32 |         auto local_pos_sub = [01;31m[Knode->create_subscription<geometry_msgs::msg::PoseStamped>[m[K
+      |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   33 | [01;31m[K                ("mavros/local_position/pose", q, 10, local_pos_cb)[m[K;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/fins/桌面/drone_ws/src/offboard_pkg/src/offboard.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/fins/桌面/drone_ws/src/offboard_pkg/src/offboard.cpp:33:17:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>[m[K’ and ‘[01m[Kvoid(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K’ {aka ‘[01m[Kvoid(std::shared_ptr<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >)[m[K’}
+   32 |         auto local_pos_sub = [01;36m[Knode->create_subscription<geometry_msgs::msg::PoseStamped>[m[K
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   33 | [01;36m[K                ("mavros/local_position/pose", q, 10, local_pos_cb)[m[K;
+      |                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/offboard_node.dir/build.make:76：CMakeFiles/offboard_node.dir/src/offboard.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/offboard_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

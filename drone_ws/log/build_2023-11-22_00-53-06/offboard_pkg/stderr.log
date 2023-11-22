@@ -1,0 +1,38 @@
+[01m[K/home/fins/桌面/drone_ws/src/offboard_pkg/src/offboard.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/fins/桌面/drone_ws/src/offboard_pkg/src/offboard.cpp:31:97:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::QoS::QoS(rclcpp::ReliabilityPolicy)[m[K’
+   31 | ion/pose", rclcpp::QoS(rclcpp::ReliabilityPolicy::BestEffort[01;31m[K)[m[K, 10, local_pos_cb);
+      |                                                             [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/fins/桌面/drone_ws/src/offboard_pkg/src/offboard.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:141:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS::QoS(size_t)[m[K’
+  141 |   [01;36m[KQoS[m[K(size_t history_depth);  // NOLINT(runtime/explicit): conversion constructor
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:141:14:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::ReliabilityPolicy[m[K’ to ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+  141 |   QoS([01;36m[Ksize_t history_depth[m[K);  // NOLINT(runtime/explicit): conversion constructor
+      |       [01;36m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:128:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS::QoS(const rclcpp::QoSInitialization&, const rmw_qos_profile_t&)[m[K’
+  128 |   [01;36m[KQoS[m[K(
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:129:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::ReliabilityPolicy[m[K’ to ‘[01m[Kconst rclcpp::QoSInitialization&[m[K’
+  129 |     [01;36m[Kconst QoSInitialization & qos_initialization[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:110:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr rclcpp::QoS::QoS(const rclcpp::QoS&)[m[K’
+  110 | class RCLCPP_PUBLIC [01;36m[KQoS[m[K
+      |                     [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:110:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::ReliabilityPolicy[m[K’ to ‘[01m[Kconst rclcpp::QoS&[m[K’
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:110:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr rclcpp::QoS::QoS(rclcpp::QoS&&)[m[K’
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:110:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::ReliabilityPolicy[m[K’ to ‘[01m[Krclcpp::QoS&&[m[K’
+gmake[2]: *** [CMakeFiles/offboard_node.dir/build.make:76：CMakeFiles/offboard_node.dir/src/offboard.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/offboard_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,17 @@
+[01m[K/home/fins/桌面/drone_ws/src/offboard_pkg/src/offboard.cpp:14:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmavros_msgs::msg::State_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   14 | void state_cb(const mavros_msgs::msg::State::ConstPtr& msg[01;35m[K)[m[K {
+      |                                                           [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/mavros_msgs/mavros_msgs/msg/state.hpp:7[m[K,
+                 from [01m[K/home/fins/桌面/drone_ws/src/offboard_pkg/src/offboard.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/mavros_msgs/mavros_msgs/msg/detail/state__struct.hpp:237:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  237 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/fins/桌面/drone_ws/src/offboard_pkg/src/offboard.cpp:19:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   19 | id local_pos_cb(const geometry_msgs::msg::PoseStamped::ConstPtr& msg[01;35m[K)[m[K {
+      |                                                                     [01;35m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+                 from [01m[K/home/fins/桌面/drone_ws/src/offboard_pkg/src/offboard.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  115 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K

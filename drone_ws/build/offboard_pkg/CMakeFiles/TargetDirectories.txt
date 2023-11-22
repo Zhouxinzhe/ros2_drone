@@ -1,0 +1,10 @@
+/home/fins/桌面/drone_ws/build/offboard_pkg/CMakeFiles/uninstall.dir
+/home/fins/桌面/drone_ws/build/offboard_pkg/CMakeFiles/offboard_pkg_uninstall.dir
+/home/fins/桌面/drone_ws/build/offboard_pkg/CMakeFiles/offboard_node.dir
+/home/fins/桌面/drone_ws/build/offboard_pkg/CMakeFiles/test.dir
+/home/fins/桌面/drone_ws/build/offboard_pkg/CMakeFiles/edit_cache.dir
+/home/fins/桌面/drone_ws/build/offboard_pkg/CMakeFiles/rebuild_cache.dir
+/home/fins/桌面/drone_ws/build/offboard_pkg/CMakeFiles/list_install_components.dir
+/home/fins/桌面/drone_ws/build/offboard_pkg/CMakeFiles/install.dir
+/home/fins/桌面/drone_ws/build/offboard_pkg/CMakeFiles/install/local.dir
+/home/fins/桌面/drone_ws/build/offboard_pkg/CMakeFiles/install/strip.dir

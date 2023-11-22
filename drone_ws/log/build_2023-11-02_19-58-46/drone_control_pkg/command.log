@@ -1,0 +1,2 @@
+Invoking command in '/home/fins/桌面/drone_ws/build/drone_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fins/桌面/drone_ws/build/drone_control_pkg -- -j8 -l8
+Invoked command in '/home/fins/桌面/drone_ws/build/drone_control_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fins/桌面/drone_ws/build/drone_control_pkg -- -j8 -l8

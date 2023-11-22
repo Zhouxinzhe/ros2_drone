@@ -1,0 +1,20 @@
+[0.010s] Invoking command in '/home/fins/桌面/drone_ws/build/offboard_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fins/桌面/drone_ws/build/offboard_pkg -- -j8 -l8
+[0.035s] Invoked command in '/home/fins/桌面/drone_ws/build/offboard_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fins/桌面/drone_ws/build/offboard_pkg -- -j8 -l8
+[0.055s] Invoking command in '/home/fins/桌面/drone_ws/build/offboard_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fins/桌面/drone_ws/build/offboard_pkg
+[0.060s] -- Install configuration: ""
+[0.060s] -- Up-to-date: /home/fins/桌面/drone_ws/install/offboard_pkg/share/ament_index/resource_index/package_run_dependencies/offboard_pkg
+[0.060s] -- Up-to-date: /home/fins/桌面/drone_ws/install/offboard_pkg/share/ament_index/resource_index/parent_prefix_path/offboard_pkg
+[0.060s] -- Up-to-date: /home/fins/桌面/drone_ws/install/offboard_pkg/share/offboard_pkg/environment/ament_prefix_path.sh
+[0.060s] -- Up-to-date: /home/fins/桌面/drone_ws/install/offboard_pkg/share/offboard_pkg/environment/ament_prefix_path.dsv
+[0.060s] -- Up-to-date: /home/fins/桌面/drone_ws/install/offboard_pkg/share/offboard_pkg/environment/path.sh
+[0.060s] -- Up-to-date: /home/fins/桌面/drone_ws/install/offboard_pkg/share/offboard_pkg/environment/path.dsv
+[0.060s] -- Up-to-date: /home/fins/桌面/drone_ws/install/offboard_pkg/share/offboard_pkg/local_setup.bash
+[0.060s] -- Up-to-date: /home/fins/桌面/drone_ws/install/offboard_pkg/share/offboard_pkg/local_setup.sh
+[0.060s] -- Up-to-date: /home/fins/桌面/drone_ws/install/offboard_pkg/share/offboard_pkg/local_setup.zsh
+[0.060s] -- Up-to-date: /home/fins/桌面/drone_ws/install/offboard_pkg/share/offboard_pkg/local_setup.dsv
+[0.060s] -- Up-to-date: /home/fins/桌面/drone_ws/install/offboard_pkg/share/offboard_pkg/package.dsv
+[0.060s] -- Up-to-date: /home/fins/桌面/drone_ws/install/offboard_pkg/share/ament_index/resource_index/packages/offboard_pkg
+[0.060s] -- Up-to-date: /home/fins/桌面/drone_ws/install/offboard_pkg/share/offboard_pkg/cmake/offboard_pkgConfig.cmake
+[0.060s] -- Up-to-date: /home/fins/桌面/drone_ws/install/offboard_pkg/share/offboard_pkg/cmake/offboard_pkgConfig-version.cmake
+[0.061s] -- Up-to-date: /home/fins/桌面/drone_ws/install/offboard_pkg/share/offboard_pkg/package.xml
+[0.061s] Invoked command in '/home/fins/桌面/drone_ws/build/offboard_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fins/桌面/drone_ws/build/offboard_pkg

@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.000324] (-) JobUnselected: {'identifier': 'drone_control_pkg'}
+[0.000637] (offboard_pkg) JobQueued: {'identifier': 'offboard_pkg', 'dependencies': OrderedDict()}
+[0.001287] (offboard_pkg) JobStarted: {'identifier': 'offboard_pkg'}
+[0.008067] (offboard_pkg) JobProgress: {'identifier': 'offboard_pkg', 'progress': 'cmake'}
+[0.008499] (offboard_pkg) JobProgress: {'identifier': 'offboard_pkg', 'progress': 'build'}
+[0.009054] (offboard_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fins/桌面/drone_ws/build/offboard_pkg', '--', '-j8', '-l8'], 'cwd': '/home/fins/桌面/drone_ws/build/offboard_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', ':/usr/local/cuda-11.7/lib64'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'fins'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/cuda-11.7/lib64'), ('HOME', '/home/fins'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/fins/桌面'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1234'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fins/桌面/drone_ws/install:/home/fins/桌面/relearn_ws/install:/home/fins/桌面/test_ws/install:/home/fins/桌面/mavros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fins'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fins'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/fins/anaconda3/condabin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/fins/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/fins/.local/share/JetBrains/Toolbox/scripts:/usr/local/cuda-11.7/bin'), ('SESSION_MANAGER', 'local/fins-UTG:@/tmp/.ICE-unix/1213,unix/fins-UTG:/tmp/.ICE-unix/1213'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0f3d2665_138e_4db5_9ff9_3a67b29015fe'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W4JOE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.588'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fins/桌面/drone_ws/install/offboard_pkg:/home/fins/桌面/drone_ws/install/drone_control_pkg:/home/fins/桌面/relearn_ws/install/turtle_control_pkg:/home/fins/桌面/relearn_ws/install/relearn_pkg:/home/fins/桌面/test_ws/install/test_pkg:/home/fins/桌面/mavros_ws/install/offboard_test:/home/fins/桌面/mavros_ws/install/mavros_pkg3:/home/fins/桌面/mavros_ws/install/mavros_pkg2:/home/fins/桌面/mavros_ws/install/mavros_pkg:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/fins/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fins/桌面/drone_ws/build/offboard_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/fins/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fins/桌面/drone_ws/install/offboard_pkg:/home/fins/桌面/drone_ws/install/drone_control_pkg:/home/fins/桌面/relearn_ws/install/turtle_control_pkg:/home/fins/桌面/relearn_ws/install/relearn_pkg:/home/fins/桌面/test_ws/install/test_pkg:/home/fins/桌面/mavros_ws/install/offboard_test:/home/fins/桌面/mavros_ws/install/mavros_pkg3:/home/fins/桌面/mavros_ws/install/mavros_pkg2:/home/fins/桌面/mavros_ws/install/mavros_pkg:/opt/ros/humble')]), 'shell': False}
+[0.036156] (offboard_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target offboard_node\x1b[0m\n'}
+[0.048803] (offboard_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/offboard_node.dir/src/offboard.cpp.o\x1b[0m\n'}
+[0.099425] (-) TimerEvent: {}
+[0.199760] (-) TimerEvent: {}
+[0.300108] (-) TimerEvent: {}
+[0.400475] (-) TimerEvent: {}
+[0.500809] (-) TimerEvent: {}
+[0.601164] (-) TimerEvent: {}
+[0.701465] (-) TimerEvent: {}
+[0.801810] (-) TimerEvent: {}
+[0.902162] (-) TimerEvent: {}
+[1.002515] (-) TimerEvent: {}
+[1.102884] (-) TimerEvent: {}
+[1.203258] (-) TimerEvent: {}
+[1.303618] (-) TimerEvent: {}
+[1.403988] (-) TimerEvent: {}
+[1.433115] (offboard_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fins/\xe6\xa1\x8c\xe9\x9d\xa2/drone_ws/src/offboard_pkg/src/offboard.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.433325] (offboard_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fins/\xe6\xa1\x8c\xe9\x9d\xa2/drone_ws/src/offboard_pkg/src/offboard.cpp:32:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::create_subscription<geometry_msgs::msg::PoseStamped>(const char [27], rclcpp::QoS&, int, void (&)(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr))\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.433386] (offboard_pkg) StderrLine: {'line': b'   31 |         auto local_pos_sub = \x1b[01;31m\x1b[Knode->create_subscription<geometry_msgs::msg::PoseStamped>\x1b[m\x1b[K\n'}
+[1.433432] (offboard_pkg) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.433475] (offboard_pkg) StderrLine: {'line': b'   32 | \x1b[01;31m\x1b[K                ("mavros/local_position/pose", qos.best_effort(), 10, local_pos_cb)\x1b[m\x1b[K;\n'}
+[1.433519] (offboard_pkg) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.433562] (offboard_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.433610] (offboard_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.433653] (offboard_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.433696] (offboard_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fins/\xe6\xa1\x8c\xe9\x9d\xa2/drone_ws/src/offboard_pkg/src/offboard.cpp:1\x1b[m\x1b[K:\n'}
+[1.433739] (offboard_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.433785] (offboard_pkg) StderrLine: {'line': b'  219 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[1.433829] (offboard_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.433871] (offboard_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.433915] (offboard_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fins/\xe6\xa1\x8c\xe9\x9d\xa2/drone_ws/src/offboard_pkg/src/offboard.cpp:32:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kvoid(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kvoid(std::shared_ptr<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[1.433962] (offboard_pkg) StderrLine: {'line': b'   31 |         auto local_pos_sub = \x1b[01;36m\x1b[Knode->create_subscription<geometry_msgs::msg::PoseStamped>\x1b[m\x1b[K\n'}
+[1.434006] (offboard_pkg) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.434052] (offboard_pkg) StderrLine: {'line': b'   32 | \x1b[01;36m\x1b[K                ("mavros/local_position/pose", qos.best_effort(), 10, local_pos_cb)\x1b[m\x1b[K;\n'}
+[1.434096] (offboard_pkg) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.504173] (-) TimerEvent: {}
+[1.604520] (-) TimerEvent: {}
+[1.704872] (-) TimerEvent: {}
+[1.805235] (-) TimerEvent: {}
+[1.905599] (-) TimerEvent: {}
+[2.005945] (-) TimerEvent: {}
+[2.106299] (-) TimerEvent: {}
+[2.206634] (-) TimerEvent: {}
+[2.306979] (-) TimerEvent: {}
+[2.407350] (-) TimerEvent: {}
+[2.507743] (-) TimerEvent: {}
+[2.608111] (-) TimerEvent: {}
+[2.708484] (-) TimerEvent: {}
+[2.808862] (-) TimerEvent: {}
+[2.909221] (-) TimerEvent: {}
+[3.009480] (-) TimerEvent: {}
+[3.109851] (-) TimerEvent: {}
+[3.210265] (-) TimerEvent: {}
+[3.310538] (-) TimerEvent: {}
+[3.350472] (offboard_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/offboard_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/offboard_node.dir/src/offboard.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[3.350988] (offboard_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/offboard_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.351199] (offboard_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.352448] (offboard_pkg) CommandEnded: {'returncode': 2}
+[3.376389] (offboard_pkg) JobEnded: {'identifier': 'offboard_pkg', 'rc': 2}
+[3.387007] (-) EventReactorShutdown: {}

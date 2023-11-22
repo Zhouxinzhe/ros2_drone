@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target arm_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/arm_node.dir/src/arm.cpp.o[0m
+[01m[K/home/fins/桌面/drone_ws/src/drone_control_pkg/src/arm.cpp:7:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmavros_msgs::msg::State_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+    7 | void get_state(mavros_msgs::msg::State::ConstPtr state[01;35m[K)[m[K
+      |                                                       [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/mavros_msgs/mavros_msgs/msg/state.hpp:7[m[K,
+                 from [01m[K/home/fins/桌面/drone_ws/src/drone_control_pkg/src/arm.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/mavros_msgs/mavros_msgs/msg/detail/state__struct.hpp:237:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  237 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable arm_node[0m
+[100%] Built target arm_node
+-- Install configuration: ""
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/ament_index/resource_index/package_run_dependencies/drone_control_pkg
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/ament_index/resource_index/parent_prefix_path/drone_control_pkg
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/environment/path.sh
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/environment/path.dsv
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/local_setup.bash
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/local_setup.sh
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/local_setup.zsh
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/local_setup.dsv
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/package.dsv
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/ament_index/resource_index/packages/drone_control_pkg
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/cmake/drone_control_pkgConfig.cmake
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/cmake/drone_control_pkgConfig-version.cmake
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/package.xml
+-- Installing: /home/fins/桌面/drone_ws/install/drone_control_pkg/lib/drone_control_pkg/arm_node
+-- Set runtime path of "/home/fins/桌面/drone_ws/install/drone_control_pkg/lib/drone_control_pkg/arm_node" to ""

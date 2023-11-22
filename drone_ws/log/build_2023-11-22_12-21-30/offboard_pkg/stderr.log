@@ -1,0 +1,8 @@
+[01m[K/home/fins/桌面/drone_ws/src/offboard_pkg/src/offboard.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/fins/桌面/drone_ws/src/offboard_pkg/src/offboard.cpp:31:68:[m[K [01;31m[Kerror: [m[K‘[01m[KReliabilityPolicyKind[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[KReliabilityPolicy[m[K’?
+   31 |          ("mavros/local_position/pose", rclcpp::QoS(rclcpp::[01;31m[KReliabilityPolicyKind[m[K::BEST_EFFORT), 10, local_pos_cb);
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                             [32m[KReliabilityPolicy[m[K
+gmake[2]: *** [CMakeFiles/offboard_node.dir/build.make:76：CMakeFiles/offboard_node.dir/src/offboard.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/offboard_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

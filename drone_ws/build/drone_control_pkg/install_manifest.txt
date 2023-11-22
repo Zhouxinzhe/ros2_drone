@@ -1,0 +1,16 @@
+/home/fins/桌面/drone_ws/install/drone_control_pkg/share/ament_index/resource_index/package_run_dependencies/drone_control_pkg
+/home/fins/桌面/drone_ws/install/drone_control_pkg/share/ament_index/resource_index/parent_prefix_path/drone_control_pkg
+/home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/environment/ament_prefix_path.sh
+/home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/environment/ament_prefix_path.dsv
+/home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/environment/path.sh
+/home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/environment/path.dsv
+/home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/local_setup.bash
+/home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/local_setup.sh
+/home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/local_setup.zsh
+/home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/local_setup.dsv
+/home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/package.dsv
+/home/fins/桌面/drone_ws/install/drone_control_pkg/share/ament_index/resource_index/packages/drone_control_pkg
+/home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/cmake/drone_control_pkgConfig.cmake
+/home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/cmake/drone_control_pkgConfig-version.cmake
+/home/fins/桌面/drone_ws/install/drone_control_pkg/share/drone_control_pkg/package.xml
+/home/fins/桌面/drone_ws/install/drone_control_pkg/lib/drone_control_pkg/arm_node

@@ -1,0 +1,8 @@
+[01m[K/home/fins/桌面/drone_ws/src/drone_control_pkg/src/arm.cpp:7:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmavros_msgs::msg::State_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+    7 | void get_state(mavros_msgs::msg::State::ConstPtr state[01;35m[K)[m[K
+      |                                                       [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/mavros_msgs/mavros_msgs/msg/state.hpp:7[m[K,
+                 from [01m[K/home/fins/桌面/drone_ws/src/drone_control_pkg/src/arm.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/mavros_msgs/mavros_msgs/msg/detail/state__struct.hpp:237:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  237 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
